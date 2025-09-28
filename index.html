@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Tournament Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .cta a {
+      background: #2c7;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #28a745;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>♟️ Chess Tournament Manager</h1>
+  <p>A professional tool for organizing, running, and analyzing chess tournaments.</p>
+</header>
+
+<div class="container">
+ <section>
+  <h2>🚀 Features</h2>
+  <div class="features">
+    <div class="feature">🔑 <b>Custom Authentication</b> – secure player login, team creation, and admin accounts.</div>
+    <div class="feature">♟️ <b>Multiplayer Rooms</b> – players can create or join live matches with timers, move validation, and spectator support.</div>
+    <div class="feature">🏆 <b>Tournament System</b> – organize single elimination, round-robin, or league-style competitions with automatic scoring.</div>
+    <div class="feature">📊 <b>Leaderboard & Scoring</b> – track wins, losses, draws, and rankings across tournaments.</div>
+    <div class="feature">🛠 <b>Admin Dashboard</b> – monitor all live rooms, control matches, and adjudicate results.</div>
+    <div class="feature">⚡ <b>Real-Time Gameplay</b> – powered by Flask-SocketIO for seamless move updates and chat.</div>
+    <div class="feature">💾 <b>Persistent Storage</b> – results, moves, and user data saved in a database for long-term tracking.</div>
+    <div class="feature">🎮 <b>Easy Setup</b> – ready to run locally or on cloud platforms like Replit/Heroku with minimal configuration.</div>
+  </div>
+</section>
+
+
+  <section class="cta">
+    <h2>🎉 Ready to Run Your Next Tournament?</h2>
+    <p>Get the full source code and start today.</p>
+    <a href="https://aponomi.gumroad.com/l/chess-multiplayer" target="_blank">Buy on Gumroad</a>
+  </section>
+
+  <section>
+    <h2>📸 Demo</h2>
+    <p>Here’s a quick look at the app in action:</p>
+    <img src="demo.png" alt="Chess Tournament Demo" style="max-width:100%; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1)">
+     <a href="http://195.250.25.13/game/4" target="_blank">Try it out</a>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Aponomi | Built with ❤️ for anyone chess</p>
+</footer>
+
+</body>
+</html>
